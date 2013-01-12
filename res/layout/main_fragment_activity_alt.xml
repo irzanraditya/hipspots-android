@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hipspots"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/my_map_fragment1"
+        android:name="com.hipspots.fragments.MyMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </fragment>
+
+    <com.hipspots.util.MultiDirectionSlidingDrawer
+        xmlns:my="http://schemas.android.com/apk/res/com.hipspots"
+        android:id="@+id/drawer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:allowSingleTap="false"
+        android:orientation="vertical"
+        app:content="@+id/my_tab_fragment"
+        app:direction="bottomToTop"
+        app:handle="@+id/handle" >
+
+            <ImageView
+                android:id="@+id/handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/tab_content_bg_top" />
+
+        <fragment
+            android:id="@+id/my_tab_fragment"
+            android:name="com.hipspots.fragments.MyListFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            />
+    </com.hipspots.util.MultiDirectionSlidingDrawer>
+
+</RelativeLayout>

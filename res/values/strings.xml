@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">WHATWASHERE_Berlin</string>
+    <string name="map_api_key_hugo">0a6sV84UV-TuVXB7hc0bLn8qzSyDp7XhnHyCH_g</string>
+    <string name="map_api_key_release_hugo">0a6sV84UV-TuVXB7hc0bLn8qzSyDp7XhnHyCH_g</string>
+    <string name="map_api_key_basti">0844fze445yL8scwQWMPYl-inwnsI_w3nz5C9rw</string>
+    <string name="map_api_key_release_basti">0844fze445yL8scwQWMPYl-inwnsI_w3nz5C9rw</string>
+    <string name="map_api_key_irzan">0SkTPDbfP8-yV9ONQErIxESWKanAsSNdCSGYIzg</string>
+    <string name="map_api_key_release_irzan">0SkTPDbfP8-wppS_71op0RM59ZwL6VBryMxHmzw</string>
+    <string name="de_json_url"> http://historyvision.solutions.smfhq.com/api/locations.json </string>
+    <string name="en_json_url"> http://historyvision.solutions.smfhq.com/api/locations.json?language=en </string>
+
+    <!-- Info Dialog -->
+    <string name="info_title"> Über WHATWASHERE_Berlin </string>
+    <string name="info_language"> SPRACHE AUSWÄHLEN </string>
+    <string name="info_contact"> IMPRESSUM </string>
+    <string name="info_contact_details">history-vision.de ist ein Geschäftsbereich der\nOPAL Filmproduktion GmbH\nHohenzollerndamm 150/151\nD-14199 Berlin\n\nT: +49.30.32 77 06.80\nF: +49.30.32 77 06.55\ninfo (at) history-vision.de\nwww.history-vision.de
+\n\nUSt.–Id.–Nr.: DE136620475\nSteuer-Nr.: 27 / 415 / 7 Finanzamt für Körperschaften I, Berlin\nHandelsregistereintrag: Berlin, AG Charlottenburg HRB 25610 B\n\nGeschäftsführer: Opal Filmproduktion GmbH wird vertreten durch den Geschäftsführer
+Alexander von Hohenthal
+</string>
+    <string name="en_info_title"> About WHATWASHERE_Berlin </string>
+    <string name="en_info_language"> SELECT LANGUAGE </string>
+    <string name="en_info_contact"> IMPRINT </string>
+    <string name="en_info_contact_details">history-vision.de is a division of\nOPAL Filmproduktion GmbH\nHohenzollerndamm 150/151\nD-14199 Berlin\n\nPhone: +49.30.32 77 06.80\nFax: +49.30.32 77 06.55\nEmail: info@history-vision.de\nWebsite: www.history-vision.de\n\nValue added tax ID No: DE136620475\nTax No.: 27 / 415 / 7 Finanzamt für Körperschaften I, Berlin\nEntry in commercial register: Berlin, AG Charlottenburg HRB 25610 B\n\nManaging Director: Opal Filmproduktion GmbH represented by Alexander von Hohenthal (Managing Director).   
+    </string>
+    
+    <string name="info_contact_email">info@history-vision.de</string>
+    <string name="info_contact_phone">+493032770680</string>
+
+    <!-- ListView -->
+    <string name="de_list_more">mehr</string>
+    <string name="en_list_more">more</string>
+
+    <!-- DetailView -->
+    <string name="de_detail_header">  Allgemeine Informationen</string>
+    <string name="de_detail_opening_hours"> Öffnungszeiten</string>
+    <string name="de_detail_mon">Mo </string>
+    <string name="de_detail_tue">Di </string>
+    <string name="de_detail_wed">Mi </string>
+    <string name="de_detail_thu">Do </string>
+    <string name="de_detail_fri">Fr </string>
+    <string name="de_detail_sa">Sa </string>
+    <string name="de_detail_so">So </string>
+    <string name="de_detail_no">geschlossen</string>
+    <string name="de_detail_transportation_access">  Verkehrsanbindungen</string>
+    <string name="de_detail_contact"> Kontakt</string>
+    <string name="de_no_audio"> Audio-Datei kann nicht abgespielt werden, bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut</string>
+     <string name="de_no_website"> Für diese Lokation ist keine Webseite vorhanden</string>
+      <string name="de_no_phone"> Für diese Lokation ist keine Telefonnummer vorhanden</string>
+       <string name="de_no_email"> Für diese Lokation ist keine Email Adresse vorhanden</string>
+    <string name="en_detail_header">  General Information</string>
+    <string name="en_detail_opening_hours"> Opening Hours</string>
+    <string name="en_detail_mon">Mon </string>
+    <string name="en_detail_tue">Tue </string>
+    <string name="en_detail_wed">Wed </string>
+    <string name="en_detail_thu">Thu </string>
+    <string name="en_detail_fri">Fri </string>
+    <string name="en_detail_sa">Sat </string>
+    <string name="en_detail_so">Sun </string>
+    <string name="en_detail_no">closed</string>
+    <string name="en_detail_transportation_access"> Transportation Access</string>
+    <string name="en_detail_contact"> Contact</string>
+    <string name="en_no_audio"> Cannot play audio file, please check your internet connection and try again</string>
+    <string name="en_no_website"> Website is not available for this location</string>
+    <string name="en_no_phone"> Phone number is not available for this location</string>
+    <string name="en_no_email"> Email Adress is not available for this location</string>
+    <string name="prefs_jsonDbDownloaded"> jsonDbDownloaded </string>
+    <string name="tab_category"> category </string>
+    <string name="de_about">WHATWASHERE ist ein interaktiver City-Guide zur Geschichte Berlins. Die App führt Nutzer
+zu über 30 historisch bedeutsamen Schauplätzen in der deutschen Hauptstadt. Was
+geschah hier? – Ob Brandenburger Tor, Checkpoint Charlie oder das Reichstagsgebäude,
+WHATWASHERE antwortet mit historischen Originalfilmaufnahmen aus über einem
+Jahrhundert Berliner Geschichte. Darüber hinaus geben Informationstexte zum Lesen und
+Hören Auskunft zu allen geschichtsträchtigen Standorten. Die audiovisuelle Vermittlung
+von Geschichte macht die Stadterkundung zu einem eindrucksvollen Erlebnis. Die location-
+based-service Anwendung navigiert auf einer interaktiven Karte durch die Straßen Berlins
+und bietet dem Nutzer detaillierte Informationen zu Museen, Restaurants und
+Hotels in unmittelbarer Umgebung der geschichtlichen Spots und deren Anbindung an den
+öffentlichen Nahverkehr.</string>
+<string name="en_about">
+WHATWASHERE is an interactive city guide on the history of Berlin. The app guides users to more than 30 historically significant locations in Germany\'s capital.\n\n“What happened at this site?” - No matter whether it\'s the Brandenburg Gate, Checkpoint Charlie or the Reichstag building, WHATWASHERE provides you with the answers accompanied by original historical visual footage that covers more than a century of Berlin\'s history.\n\nIn addition, information texts provide information for reading and listening to all the historic sites.\n\nThis audio-visual history aid combines a unique city guide and an unforgettable experience.\n\nThe location-based service application navigates with the use of an interactive map through the streets of Berlin. It provides the user with detailed information about museums, restaurants and hotels in the immediate vicinity of the historic sites and their connection to public transport.    
+</string>
+    <string name="de_company_info">WHATWASHERE_Berlin wird gefördert durch das Medienboard Berlin-Brandenburg.</string>
+    <string name="en_company_info">WHATWASHERE_Berlin is supported by Medienboard Berlin-Brandenburg.</string>
+    
+    <!-- Dialog  -->
+    <string name="de_dialog_updated">Ihre Daten sind schon aktuell</string>
+    <string name="de_dialog_downloadTitle">Inhalte Herunterladen</string>
+    <string name="de_dialog_downloadContent">Möchten Sie alle Bilder, Audio- und Video-Dateien herunterladen?</string>
+    <string name="de_dialog_yes">Ja</string>
+    <string name="de_dialog_no">Nein</string>
+    <string name="de_dialog_selectLanguage">Wählen Sie Ihre Sprache aus</string>
+    <string name="de_dialog_german">Deutsch</string>
+    <string name="de_dialog_english">Englisch</string>
+    <string name="de_dialog_contentLanguage">Spracheinstellung</string>
+    <string name="de_dialog_network">Netzwerk</string>
+    <string name="de_dialog_network_content">Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.</string>
+    <string name="de_dialog_wifi_title">W-LAN empfohlen</string>
+    <string name="de_dialog_wifi">Der Download beträgt ca 1.2 GB. Möchten sie trotzdem fortfahren?</string>
+    <string name="de_dialog_continue_download_title">Download fortsetzen?</string>
+    <string name="de_dialog_continue_download_message">Möchten Sie den Download der Bilder, Audio- und Video-Dateien fortsetzen?</string>
+    <string name="de_dialog_no_wifi">Sie sind nicht mit dem WLAN verbunden. Der Download beträgt ca 1.2 GB. \nMöchten Sie trotzdem fortfahren?</string>
+    <string name="de_dialog_no_gps">Keine Ortung möglich. Bitte prüfen Sie das GPS-Signal und versuchen Sie es erneut.</string>
+    <string name="de_dialog_download_progress_title">Download wird ausgeführt</string>
+    <string name="de_dialog_download_progress_content">Sie sind laden die Dateien gerade herunter. Bitte warten Sie, bis der Download fertig ist und versuchen Sie es erneut.</string>
+    
+    <string name="en_dialog_updated">Your content is already up-to-date</string>
+    <string name="en_dialog_downloadTitle">Download Content </string>
+    <string name="en_dialog_downloadContent">Do you want to download all the images, audio and video files?</string>
+    <string name="en_dialog_yes">Yes</string>
+    <string name="en_dialog_no">No</string>
+    <string name="en_dialog_selectLanguage">Select your language</string>
+    <string name="en_dialog_german">German</string>
+    <string name="en_dialog_english">English</string>
+    <string name="en_dialog_contentLanguage">Language Settings</string>
+    <string name="en_dialog_network">Network</string>
+    <string name="en_dialog_network_content">Please check your internet connection and try again.</string>    
+    <string name="en_dialog_wifi_title">WiFi recommended</string>
+    <string name="en_dialog_wifi">The download is about 1.2 GB. Do you want to continue?</string>
+    <string name="en_dialog_continue_download_title">Continue Download?</string>
+    <string name="en_dialog_continue_download_message">Do you want to continue downloading images, audio and video files?</string>
+    <string name="en_dialog_no_wifi">You are not using a WiFi connection. The download is about 1.2 GB. \nDo you want to continue?</string>
+    <string name="en_dialog_no_gps">We cannot get your current location. Make sure your GPS is working correctly.</string>
+    <string name="en_dialog_download_progress_title">Download in progress</string>
+    <string name="en_dialog_download_progress_content">You are currently downloading the content. Please wait until the download has finished and try again.</string>
+
+    <string name="sdcard_path">/sdcard</string>
+    <string name="dialog_ok">OK</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_grey">#A9ACAF</color>
+    <color name="grey">#8E9295</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_red">#CC3333</color>
+    <color name="dark_grey">#333333</color>
+    <color name="active_dot">#cc3333</color>
+    <color name="inactive_dot">#999999</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Akupressur Surface drawing -->
+    <color name="inner_circle">#F9F9F9</color>
+    <color name="middle_circle">#F3F3F3</color>
+    <color name="outer_circle">#BBEEEEEE</color>
+    <color name="inner_circle_fill">#6A9089</color>
+    <color name="middle_circle_fill">#7AA099</color>
+    <color name="outer_circle_fill">#8AB0A9</color>
+    <color name="red">#FF0000</color>
+    <color name="mcq_label_enabled">#ff125c60</color>
+    <color name="mcq_label_disabled">#88125c60</color>
+    <!-- <color name="mcq_label_disabled">#87acae</color> -->
+
+</resources>

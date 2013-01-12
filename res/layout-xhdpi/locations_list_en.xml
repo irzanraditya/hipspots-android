@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e7eff2"
+    android:orientation="vertical" >
+    
+ <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_marginTop="-3dp">
+                    
+            <HorizontalScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="none" >
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                     >
+
+                    <RadioButton
+                        android:id="@+id/cb_tab_all_en"
+                        android:layout_width="46dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/checkbox_background"
+                        android:button="@drawable/en_tab_all_selector"
+                        android:onClick="true" />
+
+                    <RadioButton
+                        android:id="@+id/cb_tab_favorites_en"
+                        android:layout_width="84dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/checkbox_background"
+                        android:button="@drawable/en_tab_favorites_selector"
+                        android:onClick="true" />
+
+                    <RadioButton
+                        android:id="@+id/cb_tab_historical_en"
+                        android:layout_width="134dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/checkbox_background"
+                        android:button="@drawable/en_tab_historical_selector"
+                        android:onClick="true" />
+
+                 <RadioButton
+                        android:id="@+id/cb_tab_museum_en"
+                        android:layout_width="66dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/checkbox_background"
+                        android:button="@drawable/en_tab_museum_selector"
+                        android:onClick="true" />
+
+                 <RadioButton
+                        android:id="@+id/cb_tab_food_en"
+                        android:layout_width="148dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/checkbox_background"
+                        android:button="@drawable/en_tab_food_selector"
+                        android:onClick="true" />
+                
+                </RadioGroup>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tab_content_bg_bottom"
+                android:layout_marginTop="-3dp"/>
+        </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/cb_tab_sort_en"
+        android:layout_width="640dp"
+        android:layout_height="34dp"
+        android:background="@drawable/checkbox_background"
+        android:button="@drawable/en_check_tab_sort"
+        android:onClick="true" />
+
+    <LinearLayout
+        android:id="@+id/list_container"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/list_bg"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollingCache="false"
+            android:fastScrollEnabled="true"
+            android:cacheColorHint="#00000000"
+            android:divider="#ffffff"
+            android:dividerHeight="1.3dp" />
+    </LinearLayout>
+
+</LinearLayout>
